@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+nav{
+    display: flex;
+    padding: 2vh 2vw;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 4px solid grey;
+    border-bottom-style: double;
+}
+.contact ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    padding: 0.5vh 0.5vw;
+    color: #DEAB52;
+}
+.media ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    padding: 0.5vh 0.5vw;
+    color: #DEAB52;
+}
+button{
+    padding: 2vh 2vw;
+    color: white;
+    border: none;
+    background-color: #DEAB52;
+}
+button a{
+    text-decoration: none;
+    color: white;
+    
+}
+img{
+    width: 15%;
+}
+.hero{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("image/hero.jpeg");
+    width: 100%;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 20vh 10vw;
+}
+.hero h1{
+    color: #DEAB52;
+    text-align: center;
+    font-size: 100px;
+    padding-bottom: 2vh;
+}
+.hero h3{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 2vh;
+}
+.hero h4{
+    color: #DEAB52;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 3.5vh;
+}
+.hero button{
+    margin-left: 35vw;
+    background-color: transparent;
+    border: 3px solid #DEAB52;
+}
+.hero button a{
+    text-decoration: none;
+    color: white;
+}
+.about{
+    background-color: white;
+    padding: 5vh 8vw;
+    display: flex;
+    border-bottom: 5px solid rgb(112, 91, 91);
+}
+.about-img{
+    padding-top: 2vh;
+    width: 40%;
+}
+.about .text{
+    padding-right: 5vw;
+    text-align: justify;
+    padding-top: 5vh;
+}
+.about .text i{
+    font-weight: 400;
+}
+.about .text h3{
+    font-size: 30px;
+    font-weight: 300;
+    color: #DEAB52;
+}
+.about .text p{
+    font-size: 25px;
+    font-weight: 100;
+    color: rgb(51, 42, 42);
+}
+.about .text .sign p{
+    color: #DEAB52;
+    font-family: Passions Conflict;
+    font-style: italic;
+}
+.serv{
+    padding: 5VH 5VW;
+}
+.serv .txt{
+    padding: 5vh 8vw;
+    text-align: center;
+    align-items: center;
+}
+.serv .txt h2{
+    color: #DEAB52;
+    padding-bottom: 2vh;
+    font-size: 30px;
+}
+.serv .txt h3{
+    padding-bottom: 2vh;
+    font-size: 40px;
+}
+.serv-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+    text-align: center;
+    align-self: center;
+}
+.serv-list i{
+    padding-bottom: 2vh;
+}
+.serv-list button{
+    background: none;
+    color: white;
+}
+.serv-list div{
+    padding: 5vh 5vw;
+    background: black;
+    color: white;
+}
+.serv-list div i{
+    color: #DEAB52;
+    font-size: 50px;
+    padding-bottom: 4vh;
+}
+.serv-list div button  i{
+    font-size: 20px;
+}
+.serv-list-2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+    text-align: center;
+    align-self: center;
+}
+.serv-list-2 i{
+    padding-bottom: 2vh;
+}
+.serv-list-2 button{
+    background: none;
+    color: white;
+}
+.serv-list-2 div{
+    padding: 5vh 5vw;
+    background: black;
+    color: white;
+}
+.serv-list-2 div i{
+    color: #DEAB52;
+    font-size: 50px;
+    padding-bottom: 4vh;
+}
+.serv-list-2 div button  i{
+    font-size: 20px;
+}
+.serv-list-3{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+    text-align: center;
+    align-self: center;
+}
+.serv-list-3 i{
+    padding-bottom: 2vh;
+}
+.serv-list-3 button{
+    background: none;
+    color: white;
+}
+.serv-list-3 div{
+    padding: 5vh 5vw;
+    background: black;
+    color: white;
+}
+.serv-list-3 div i{
+    color: #DEAB52;
+    font-size: 50px;
+    padding-bottom: 4vh;
+}
+.serv-list-3 div button  i{
+    font-size: 20px;
+}
+.serv-cont{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("image/slider\ \(5\).jpeg");
+    width: 100%;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 8vh 10vw;
+    color: white;
+    border: 2px solid white;
+}
+.serv-cont h2{
+    text-align: center;    
+    padding-bottom: 8vh;
+    color: #DEAB52;
+    font-size: 40px;
+}
+.serv-area{
+    display: flex;
+    justify-content: space-between;
+}
+.left-col p{
+    font-size: 20px;
+    padding-right: 7vw;
+}
+.left-col button{
+    border-radius: 15%;
+}
+.ryt-col{
+    padding-left: 3vw;
+}
